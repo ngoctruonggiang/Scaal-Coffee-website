@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 170">
+  <defs>
+    <radialGradient id="steam" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="cup" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5ead2" />
+      <stop offset="100%" stop-color="#e5d2a8" />
+    </linearGradient>
+    <linearGradient id="coffee" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5b2f1a" />
+      <stop offset="100%" stop-color="#2f1607" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="170" fill="#f1e3c2" />
+  <ellipse cx="100" cy="60" rx="60" ry="30" fill="url(#steam)" />
+  <g transform="translate(25,40)">
+    <ellipse cx="75" cy="70" rx="68" ry="28" fill="#cdb788" />
+    <ellipse cx="75" cy="60" rx="68" ry="28" fill="url(#cup)" />
+    <ellipse cx="75" cy="60" rx="52" ry="20" fill="url(#coffee)" />
+    <path d="M140 52c18 0 32 12 32 28s-14 28-32 28h-4v-14h4c10 0 18-6 18-14s-8-14-18-14h-4V52z" fill="#e5d2a8" stroke="#8f7547" stroke-width="4" />
+    <path d="M7 70c3 18 19 32 68 32s65-14 68-32" fill="none" stroke="#b8995a" stroke-width="6" stroke-linecap="round" />
+    <ellipse cx="75" cy="94" rx="70" ry="18" fill="#b8995a" />
+    <ellipse cx="75" cy="88" rx="70" ry="18" fill="#d6bd7c" />
+  </g>
+</svg>
